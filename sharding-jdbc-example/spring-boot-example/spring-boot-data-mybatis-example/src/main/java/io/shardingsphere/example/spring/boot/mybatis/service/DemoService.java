@@ -63,7 +63,7 @@ public class DemoService {
             orderItemRepository.delete(each);
         }
         System.out.println(orderItemRepository.selectAll());
-        orderItemRepository.dropTable();
-        orderRepository.dropTable();
+//        orderItemRepository.dropTable();
+//        orderRepository.dropTable();
     }
 }
