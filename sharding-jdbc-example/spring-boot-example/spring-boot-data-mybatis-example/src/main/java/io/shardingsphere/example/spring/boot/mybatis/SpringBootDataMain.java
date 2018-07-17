@@ -27,6 +27,8 @@ import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.Bean;
 
 /**
+ * -2 编译 https://github.com/sharding-sphere/sharding-sphere.git  mvn -DskipTests clean install
+ * -1 启动sky walking以及 elastic search 存储
  * 1 在idea启动项目增加
  * vmoptions -javaagent:E:\hs\software\apache-skywalking-apm-incubating\agent\skywalking-agent.jar
  *
